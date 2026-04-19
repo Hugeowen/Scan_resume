@@ -7,7 +7,7 @@ services:
   fc-service: 
     component: devsapp/fc 
     props:
-      region: cn-hangzhou # 替换为你的地域，如cn-beijing、cn-shanghai
+      region: cn-hangzhou
       service:
         name: Scan_resume
         description: 扫描简历
