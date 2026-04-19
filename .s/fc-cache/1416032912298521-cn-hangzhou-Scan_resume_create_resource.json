@@ -1,0 +1,6 @@
+{
+  "serviceName": "Scan_resume",
+  "functionNames": [
+    "Scan_resume/scan-resume-function"
+  ]
+}

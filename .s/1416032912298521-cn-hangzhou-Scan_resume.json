@@ -1,0 +1,42 @@
+{
+  "statefulConfig": {
+    "serviceName": "Scan_resume",
+    "description": "扫描简历",
+    "role": "",
+    "logConfig": {
+      "project": "",
+      "logstore": "",
+      "enableRequestMetrics": false,
+      "enableInstanceMetrics": false,
+      "logBeginRule": "None",
+      "enableLlmMetrics": null
+    },
+    "serviceId": "1d82d52e-a898-4262-b3c7-1b522003c62a",
+    "createdTime": "2026-04-19T01:03:12Z",
+    "lastModifiedTime": "2026-04-19T01:03:39Z",
+    "vpcConfig": {
+      "vpcId": "",
+      "vSwitchIds": [],
+      "securityGroupId": "",
+      "role": null,
+      "anytunnelViaENI": null
+    },
+    "internetAccess": true,
+    "nasConfig": {
+      "userId": -1,
+      "groupId": -1,
+      "mountPoints": []
+    },
+    "ossMountConfig": {
+      "mountPoints": []
+    },
+    "vendorConfig": null,
+    "tracingConfig": {
+      "type": null,
+      "params": null,
+      "jaegerConfig": null
+    },
+    "useSLRAuthentication": false,
+    "name": "Scan_resume"
+  }
+}

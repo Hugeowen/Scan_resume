@@ -1,0 +1,44 @@
+{
+  "statefulConfig": {
+    "functionId": "c6d04389-4307-4341-8c24-10bf9538fb0b",
+    "functionName": "scan-resume-function",
+    "description": "This is default function description by fc-deploy component",
+    "runtime": "python3.9",
+    "handler": "main.handler",
+    "timeout": 30,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 69640205,
+    "codeChecksum": "4613828468250874306",
+    "memorySize": 512,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2026-04-19T01:03:39Z",
+    "lastModifiedTime": "2026-04-19T01:03:39Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": null,
+    "caPort": null,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3,
+        "command": null
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3,
+        "command": null
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": null,
+    "customHealthCheckConfig": null,
+    "sessionAffinity": null,
+    "initializerCommand": null,
+    "name": "scan-resume-function"
+  }
+}
